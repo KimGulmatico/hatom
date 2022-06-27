@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/hatom/static/css/main.8fe1cf8a.css",
+    "main.js": "/hatom/static/js/main.440c405b.js",
+    "static/js/787.26c5c3fe.chunk.js": "/hatom/static/js/787.26c5c3fe.chunk.js",
+    "static/media/coin-sequence.png": "/hatom/static/media/coin-sequence.f4bdc12772514646f981.png",
+    "index.html": "/hatom/index.html",
+    "main.8fe1cf8a.css.map": "/hatom/static/css/main.8fe1cf8a.css.map",
+    "main.440c405b.js.map": "/hatom/static/js/main.440c405b.js.map",
+    "787.26c5c3fe.chunk.js.map": "/hatom/static/js/787.26c5c3fe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8fe1cf8a.css",
+    "static/js/main.440c405b.js"
+  ]
+}
