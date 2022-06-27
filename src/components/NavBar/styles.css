@@ -1,0 +1,18 @@
+.nav {
+    font-family: Familjen Grotesk;
+    @apply absolute text-white w-full flex justify-between items-center font-bold h-[80px] md:h-[100px] z-50 px-3 md:px-10 lg:px-14 xl:px-28 2xl:px-[200px]
+}
+
+.links {
+    @apply space-x-4 pl-16 pr-5 hidden md:flex
+}
+
+.active {
+    @apply border-white border-opacity-20 border-b-2 relative text-blue-700
+}
+
+.active::after {
+   content: '';
+   background-color: aquamarine;
+   @apply inline-block absolute w-1 h-1 top-1 ml-1 rounded-full opacity-90
+}

@@ -1,0 +1,7 @@
+.hero-section {
+    @apply bg-blue-900 relative flex justify-center 2xl:overflow-hidden 2xl:h-[100vh]
+}
+
+.hero-section > div {
+    @apply absolute px-6 md:px-28 pt-[120px] text-center
+}

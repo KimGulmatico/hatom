@@ -1,0 +1,4 @@
+.footer {
+    background-color: #031222;
+    @apply px-5 md:px-10 lg:px-16 xl:px-36 py-20 text-white font-bold
+}

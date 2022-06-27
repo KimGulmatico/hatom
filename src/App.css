@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+.hero-title {
+    font-family: Rubik;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: #40806A;
+    @apply text-[32px] md:text-[65px] lg:text-[85px] indent-1 md:indent-0
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.hero-title::before {
+    content: "Hatom Token";
+    font-family: Rubik;
+    font-weight: bold;
+    @apply text-white absolute text-[32px] -ml-[6px] md:text-[65px] lg:text-[85px] indent-1 md:indent-0
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.hero-sub-text {
+    color: #40806A;
+    @apply text-center mt-0 md:-mt-5 text-base md:text-xl w-[75%] ml-auto mr-auto
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.dividends {
+    @apply hidden md:flex justify-between items-center w-full px-5 md:px-10 lg:px-16 xl:px-40 pt-5 md:space-x-10 lg:space-x-0
 }
 
-.App-link {
-  color: #61dafb;
+.numbers {
+    font-weight: Familjen Grotesk;
+    font-weight: 500;
+    @apply md:text-2xl lg:text-4xl flex flex-col
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.numbers > div > span {
+    color: #3A8B67;
+}
+
+.numbers > span {
+    @apply text-gray-500 text-base md:text-base lg:text-xl
+}
+
+.list > li::before {
+    content: "\2022";
+    color: rgb(9, 147, 106);
+    font-weight: bold;
+    font-size: 30px;
+    display: inline-block;
+    width: 1em;
+}
+
+.list > li {
+    @apply mt-5
+}
+
+.newsletter {
+    background-image: linear-gradient(to right, #24595D, #13226A);
+    @apply py-20
+}
+
+.resp-image-cont {
+    @apply top-[18px] right-[10px] w-[50vw] h-auto
+    lg:top-[18px] lg:right-[10px] lg:w-[58vw] lg:h-auto  
+    xl:top-[18px] xl:right-[10px] xl:w-[50vw] xl:h-auto 
+    2xl:w-[40vw] 2xl:h-[500px] 2xl:-top-[20px]
+}
+
+.seq-cont {
+    @apply pl-[2vw] md:pl-[5vw] h-[70vw] md:h-[15vw] lg:h-[20vw] xl:h-[40vw] flex justify-center items-center
+}
+
+.img-seq {
+    background: url('../public/coin-sequence.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    @apply ml-auto mr-auto w-[100px] h-[100px] md:w-[120px] md:h-[120px] lg:w-[150px] lg:h-[150px] xl:w-[220px] xl:h-[220px] 2xl:w-[400px] 2xl:h-[400px]
 }

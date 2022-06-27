@@ -1,0 +1,4 @@
+.button {
+    border-color: #004C01;
+    @apply rounded-md px-5 py-3 border bg-gradient-to-t from-green-800 bg-opacity-50
+}
