@@ -16,7 +16,7 @@ interface Link {
 
 const NavBar = ({ links }: NavBarProps) => (
   <div className="nav">
-    <img alt="logo" src="/hatom.svg" />
+    <img alt="logo" src="hatom.svg" />
     <ul className="links">
       {
         links.map(({ name, href, active }: Link, i) =>
